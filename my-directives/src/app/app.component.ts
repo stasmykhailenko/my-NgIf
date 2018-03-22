@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  visible: boolean = true;
+  public visible: boolean = true;
 
   toggleParagraph(){
     this.visible = !this.visible;
