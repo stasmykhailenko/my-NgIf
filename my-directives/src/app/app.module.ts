@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { MyNgIfDirective } from './my-ng-if.directive';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MyNgIfDirective
   ],
   imports: [
     BrowserModule
